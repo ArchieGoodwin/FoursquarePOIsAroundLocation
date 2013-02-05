@@ -18,6 +18,12 @@
 		DC41FB6B16C1166300A3A3A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC41FB6A16C1166300A3A3A0 /* Default-568h@2x.png */; };
 		DC41FB6E16C1166300A3A3A0 /* NWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41FB6D16C1166300A3A3A0 /* NWViewController.m */; };
 		DC41FB7116C1166300A3A3A0 /* NWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC41FB6F16C1166300A3A3A0 /* NWViewController.xib */; };
+		DC41FB7B16C1178900A3A3A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC41FB7A16C1178900A3A3A0 /* CoreLocation.framework */; };
+		DC41FB7E16C1192800A3A3A0 /* NWItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41FB7D16C1192800A3A3A0 /* NWItem.m */; };
+		DC41FB8116C119B000A3A3A0 /* NWmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41FB8016C119AF00A3A3A0 /* NWmanager.m */; };
+		DC41FB8416C119DB00A3A3A0 /* URLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41FB8316C119DB00A3A3A0 /* URLConnection.m */; };
+		DC41FB8D16C11C4700A3A3A0 /* PendingOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41FB8916C11C4400A3A3A0 /* PendingOperations.m */; };
+		DC41FB8E16C11C4700A3A3A0 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC41FB8B16C11C4600A3A3A0 /* IconDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,18 @@
 		DC41FB6C16C1166300A3A3A0 /* NWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWViewController.h; sourceTree = "<group>"; };
 		DC41FB6D16C1166300A3A3A0 /* NWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWViewController.m; sourceTree = "<group>"; };
 		DC41FB7016C1166300A3A3A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NWViewController.xib; sourceTree = "<group>"; };
+		DC41FB7A16C1178900A3A3A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC41FB7C16C1192800A3A3A0 /* NWItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWItem.h; sourceTree = "<group>"; };
+		DC41FB7D16C1192800A3A3A0 /* NWItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWItem.m; sourceTree = "<group>"; };
+		DC41FB7F16C119AF00A3A3A0 /* NWmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWmanager.h; sourceTree = "<group>"; };
+		DC41FB8016C119AF00A3A3A0 /* NWmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWmanager.m; sourceTree = "<group>"; };
+		DC41FB8216C119DA00A3A3A0 /* URLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConnection.h; sourceTree = "<group>"; };
+		DC41FB8316C119DB00A3A3A0 /* URLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLConnection.m; sourceTree = "<group>"; };
+		DC41FB8516C11AF500A3A3A0 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		DC41FB8816C11C4300A3A3A0 /* PendingOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingOperations.h; sourceTree = "<group>"; };
+		DC41FB8916C11C4400A3A3A0 /* PendingOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingOperations.m; sourceTree = "<group>"; };
+		DC41FB8A16C11C4600A3A3A0 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		DC41FB8B16C11C4600A3A3A0 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC41FB7B16C1178900A3A3A0 /* CoreLocation.framework in Frameworks */,
 				DC41FB5516C1166300A3A3A0 /* UIKit.framework in Frameworks */,
 				DC41FB5716C1166300A3A3A0 /* Foundation.framework in Frameworks */,
 				DC41FB5916C1166300A3A3A0 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +75,7 @@
 		DC41FB4816C1166300A3A3A0 = {
 			isa = PBXGroup;
 			children = (
+				DC41FB7A16C1178900A3A3A0 /* CoreLocation.framework */,
 				DC41FB5A16C1166300A3A3A0 /* FoursquareAroundLocation */,
 				DC41FB5316C1166300A3A3A0 /* Frameworks */,
 				DC41FB5216C1166300A3A3A0 /* Products */,
@@ -83,6 +103,17 @@
 		DC41FB5A16C1166300A3A3A0 /* FoursquareAroundLocation */ = {
 			isa = PBXGroup;
 			children = (
+				DC41FB8816C11C4300A3A3A0 /* PendingOperations.h */,
+				DC41FB8916C11C4400A3A3A0 /* PendingOperations.m */,
+				DC41FB8A16C11C4600A3A3A0 /* IconDownloader.h */,
+				DC41FB8B16C11C4600A3A3A0 /* IconDownloader.m */,
+				DC41FB8516C11AF500A3A3A0 /* Defines.h */,
+				DC41FB8216C119DA00A3A3A0 /* URLConnection.h */,
+				DC41FB8316C119DB00A3A3A0 /* URLConnection.m */,
+				DC41FB7F16C119AF00A3A3A0 /* NWmanager.h */,
+				DC41FB8016C119AF00A3A3A0 /* NWmanager.m */,
+				DC41FB7C16C1192800A3A3A0 /* NWItem.h */,
+				DC41FB7D16C1192800A3A3A0 /* NWItem.m */,
 				DC41FB6316C1166300A3A3A0 /* NWAppDelegate.h */,
 				DC41FB6416C1166300A3A3A0 /* NWAppDelegate.m */,
 				DC41FB6C16C1166300A3A3A0 /* NWViewController.h */,
@@ -177,6 +208,11 @@
 				DC41FB6116C1166300A3A3A0 /* main.m in Sources */,
 				DC41FB6516C1166300A3A3A0 /* NWAppDelegate.m in Sources */,
 				DC41FB6E16C1166300A3A3A0 /* NWViewController.m in Sources */,
+				DC41FB7E16C1192800A3A3A0 /* NWItem.m in Sources */,
+				DC41FB8116C119B000A3A3A0 /* NWmanager.m in Sources */,
+				DC41FB8416C119DB00A3A3A0 /* URLConnection.m in Sources */,
+				DC41FB8D16C11C4700A3A3A0 /* PendingOperations.m in Sources */,
+				DC41FB8E16C11C4700A3A3A0 /* IconDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

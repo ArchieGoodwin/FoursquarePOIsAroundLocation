@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "IconDownloader.h"
+@interface NWViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, CLLocationManagerDelegate, IconDownloaderDelegate>
 
-@interface NWViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UITableView *table;
+@property (nonatomic, strong) CLLocationManager *locationManager;
+@property (nonatomic, strong) CLLocation *currentLocation;
+@property (nonatomic, strong) NSMutableArray *pois;
+@property (nonatomic, retain) NSMutableDictionary *imageDownloadsInProgress;
 
 @end

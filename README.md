@@ -7,10 +7,6 @@ This code allows to get around pois from FourSquare venues platform (https://dev
 
 Sergey Dikarev
 web:http://incoding.biz
-phone: ru: +7 (988) 9912172 / us: +1 (415) 5230440
 gtalk:sdikarev@gmail.com
 skype:sdikarev
 twitter:@_NeroWolfe_
-facebook:http://www.facebook.com/sdikarev
-linkedin:http://ru.linkedin.com/in/sdikarev
-odesk:https://www.odesk.com/users/~~7f8b39131a1b5d13
